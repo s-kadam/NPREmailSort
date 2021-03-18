@@ -1,0 +1,4 @@
+npr/emailsort/service/EmailSortServiceTest.java
+ npr.emailsort.service.EmailSortServiceTest
+npr/emailsort/service/EmailValidatorServiceTest.java
+ npr.emailsort.service.EmailValidatorServiceTest

@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+apply plugin : 'java'
+
+group 'com.npr.interview.emailSort'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    javaMainClass = "npr.emailsort.NPREmailSort"
+    junitVersion = '5.7.0'
+}
+application {
+    mainClassName = javaMainClass
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    implementation 'org.projectlombok:lombok:1.18.16'
+    compileOnly 'org.projectlombok:lombok:1.18.12'
+    annotationProcessor 'org.projectlombok:lombok:1.18.12'
+
+    compileOnly('javax.enterprise:cdi-api:2.0')
+
+    compile 'commons-validator:commons-validator:1.4.1'
+
+    testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+}
+
+test {
+    useJUnitPlatform()
+}
