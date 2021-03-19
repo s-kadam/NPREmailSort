@@ -1,3 +1,7 @@
+/*
+ * Author: Shubham Kadam
+ * For: NPR Engineer Interview
+ */
 package npr.emailsort;
 
 import lombok.extern.java.Log;
@@ -16,9 +20,11 @@ public class NPREmailSort {
         System.out.println("In the program!");
 
         try {
+            int iteration = 1;
             for (String filePath : args) {
                 log.info(String.format("Passing file %s to FileHandler", filePath));
-                handler.handleFile(filePath);
+                handler.handleFile(filePath, iteration);
+                iteration++;
             }
         } catch (FileNotFoundException e) {
             log.warning("No file found");

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="npr.emailsort.service.EmailValidatorServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:09:56" hostname="MacBook-Pro.local" time="0.048">
+  <properties/>
+  <testcase name="ensure_validateEmails_returns_only_valid_emails()" classname="npr.emailsort.service.EmailValidatorServiceTest" time="0.048"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
