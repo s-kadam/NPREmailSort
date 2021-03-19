@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="npr.emailsort.service.EmailSortServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:12:51" hostname="MacBook-Pro.local" time="0.031">
+  <properties/>
+  <testcase name="ensure_sort_returns_list_sorted_by_domain()" classname="npr.emailsort.service.EmailSortServiceTest" time="0.031"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 18, 2021 7:12:51 PM npr.emailsort.service.SortService sortEmailsIntoList
+INFO: Sorting list of emails
+]]></system-err>
+</testsuite>

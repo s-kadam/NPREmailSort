@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="npr.emailsort.service.EmailValidatorServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:09:56" hostname="MacBook-Pro.local" time="0.048">
+<testsuite name="npr.emailsort.service.EmailValidatorServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-19T02:12:51" hostname="MacBook-Pro.local" time="0.046">
   <properties/>
-  <testcase name="ensure_validateEmails_returns_only_valid_emails()" classname="npr.emailsort.service.EmailValidatorServiceTest" time="0.048"/>
+  <testcase name="ensure_validateFileType_returns_true_when_reading_txt_file()" classname="npr.emailsort.service.EmailValidatorServiceTest" time="0.005"/>
+  <testcase name="ensure_validateEmails_returns_only_valid_emails()" classname="npr.emailsort.service.EmailValidatorServiceTest" time="0.04"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[Mar 18, 2021 7:12:51 PM npr.emailsort.service.ValidatorService validateFileType
+INFO: test.txt validated as .txt file
+Mar 18, 2021 7:12:51 PM npr.emailsort.service.ValidatorService validateFileType
+INFO: test4File1239728341234.txt validated as .txt file
+Mar 18, 2021 7:12:51 PM npr.emailsort.service.ValidatorService validateFileType
+INFO: test.img is not a .txt file. Only .txt files will be accepted
+Mar 18, 2021 7:12:51 PM npr.emailsort.service.ValidatorService validateFileType
+INFO:  is not a .txt file. Only .txt files will be accepted
+Mar 18, 2021 7:12:51 PM npr.emailsort.service.ValidatorService validateFileType
+INFO: txt.tst is not a .txt file. Only .txt files will be accepted
+]]></system-err>
 </testsuite>
