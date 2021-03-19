@@ -8,16 +8,17 @@ After it validates the emails, it will sort the emails by domain name, and then 
 
 I opted for maybe more encapsulation than was needed to perform a rather simple task. 
 
-#Technologies Required
+## Technologies Required
 1. A minimum of Java 8 is required to run this program. You can download the latest version of Java at https://www.java.com/en/
 2. A minimum of Gradle 4.9 will be required to run and build the program. You can download the latest version of Gradle at https://gradle.org/install/
-#Limitations
+
+## Limitations
 
 The program uses the Apache Commons Email Validator  to validate email addresses. 
 The Apache Email Validator adheres to RFC 2822 standards, if I am not mistaken.
 Unless there are specific business requirements on what kinds of emails to accept, it is best to adhere to RFC standards. 
 
-#How to Run
+## How to Run
 
 To build the program, navigate to the home directory of the program in terminal and run:
 
@@ -35,7 +36,7 @@ The program is also capable of taking multiple text files
 
 You should see output.txt files in the home directory of the program.
 
-#Improvements for Future Iterations
+## Improvements for Future Iterations
 
 1.  Unit Testing could be improved. At the moment only the Validator Service and the Sort Service have dedicated unit tests.
     This could be expanded to include testing for the File Service as well as the File Handler. Tests to ensure that the correct
