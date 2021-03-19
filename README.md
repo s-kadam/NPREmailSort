@@ -6,8 +6,6 @@ This is a very rudimentary email sorting program. It takes in arguments as text 
 It will read the text file(s), and then validate all the emails using the Apache Commons Email Validator. 
 After it validates the emails, it will sort the emails by domain name, and then sort them alphabetically within those domains. 
 
-I opted for maybe more encapsulation than was needed to perform a rather simple task. 
-
 ## Technologies Required
 1. A minimum of Java 8 is required to run this program. You can download the latest version of Java at https://www.java.com/en/
 2. A minimum of Gradle 4.9 will be required to run and build the program. You can download the latest version of Gradle at https://gradle.org/install/
